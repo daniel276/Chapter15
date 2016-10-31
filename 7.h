@@ -4,6 +4,7 @@
 
 #ifndef CHAPTER15_7_H
 #define CHAPTER15_7_H
+#include <iostream>
 #include <string>
 using namespace std;
 class PersonData{
@@ -72,6 +73,7 @@ public:
         this->customerNumber=customerNumber;
     }
     void setMailingList(bool mailingList){
+
         this->mailingList=mailingList;
     }
 
